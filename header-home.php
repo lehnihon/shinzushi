@@ -15,7 +15,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
-<link rel="shortcut icon" type="image/png" href="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/Rose Massagem.png"; ?>" />
+<link rel="shortcut icon" type="image/png" href="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/logo.png"; ?>" />
 
 <?php wp_head(); ?>
 <script>
@@ -24,12 +24,18 @@ new WOW().init();
 </head>
 
 <body>
+<!--TELA DE CARREGAMENTO -->
+<div id="preloader">
+	<div id="status" class=" fadeIn">&nbsp;</div>
+</div>
+
 <div id="page">
 	<div class="header-video">
+		<div class="mask"></div>
 		<nav>
 			<div class="container-fluid">
 				<div class="row">
-					<div class="col-sm redes">
+					<div class="col redes">
 						<ul class="redes_sociais_header">
 							<li class="trip"><a target="_blank" href="#"></a></li>
 							<li class="youtube"><a target="_blank" href="#"></a></li>
@@ -38,8 +44,8 @@ new WOW().init();
 							<li class="hash"><a target="_blank" href="#"></a></li>
 						</ul>
 					</span></div>
-					<div class="col-sm text-center"><a href="<?php echo esc_url( home_url( '' ) ); ?>" title="logo"><img class="logo" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/logo-top.png"; ?>" alt="logo" /></a></span></div>
-					<div class="col-sm text-right op">
+					<div class="col text-center"><a href="<?php echo esc_url( home_url( '' ) ); ?>" title="logo"><img class="logo" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/logo-top.png"; ?>" alt="logo" /></a></span></div>
+					<div class="col text-right op">
 						<div class="menu-open">
 							<div id="nav-icon1">
 							  <span></span>
@@ -69,23 +75,23 @@ new WOW().init();
         <div id="nav-bot">
         	<div class="container-fluid">
 				<div class="row justify-content-end">
-					<div class="col-sm-auto">
-						<a href="<?php echo esc_url( home_url( '' ) ); ?>" title="o shinzushi">O Shinzushi</a>
+					<div class="col-auto">
+						<a href="<?php echo esc_url( home_url( 'o-shinzushi' ) ); ?>" title="o shinzushi">O Shinzushi</a>
 					</div>
-					<div class="col-sm-auto">
-						<a href="<?php echo esc_url( home_url( '' ) ); ?>" title="chef">Chef</a>
+					<div class="col-auto">
+						<a href="<?php echo esc_url( home_url( 'chef' ) ); ?>" title="chef">Chef</a>
 					</div>
-					<div class="col-sm-auto">
-						<a href="<?php echo esc_url( home_url( '' ) ); ?>" title="menu">Menu</a>
+					<div class="col-auto">
+						<a href="<?php echo esc_url( home_url( 'menu' ) ); ?>" title="menu">Menu</a>
 					</div>
-					<div class="col-sm-auto">
-						<a href="<?php echo esc_url( home_url( '' ) ); ?>" title="galeria">Galeria</a>
+					<div class="col-auto">
+						<a href="<?php echo esc_url( home_url( 'fotos' ) ); ?>" title="fotos">Fotos</a>
 					</div>
-					<div class="col-sm-auto">
-						<a href="<?php echo esc_url( home_url( '' ) ); ?>" title="imprensa">Imprensa</a>
+					<div class="col-auto">
+						<a href="<?php echo esc_url( home_url( 'imprensa' ) ); ?>" title="imprensa">Imprensa</a>
 					</div>
-					<div class="col-sm-auto">
-						<a href="<?php echo esc_url( home_url( '' ) ); ?>" title="contato">Contato</a>
+					<div class="col-auto">
+						<a href="<?php echo esc_url( home_url( 'contato' ) ); ?>" title="contato">Contato</a>
 					</div>
 				</div>
 			</div>
