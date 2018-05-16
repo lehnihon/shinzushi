@@ -22,7 +22,7 @@ ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
 			</div>
 			<div class="row wow fadeIn">
 				<div class="col-md-12 text-center">
-					<span class="separador"></span><a class="ler-mais" href="#" title="ler mais">ler mais</a>
+					<span class="separador"></span><a class="ler-mais" href="<?php echo esc_url( home_url( 'o-shinzushi' ) ); ?>" title="ler mais">ler mais</a>
 				</div>
 			</div>
 		</div>
@@ -32,12 +32,12 @@ ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
 			<div class="row wow fadeIn">
 				<div class="col-md">
 					<div class="wrap">
-						<img class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/foto.jpg"; ?>" alt="foto" />
+						<img class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/sobre1.jpg"; ?>" alt="foto" />
 					</div>
 				</div>
 				<div class="col-md">
 					<div class="wrap">
-						<img class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/foto.jpg"; ?>" alt="foto" />
+						<img class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/sobre2.jpg"; ?>" alt="foto" />
 					</div>
 				</div>
 			</div>
@@ -52,54 +52,25 @@ ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
 				</div>
 			</div><br>
 			<div class="row owl-carousel wow fadeIn">
-				<div class="col-md">
-					<a href="#" class="wrap" title="chef">
-						<img class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/chef.jpg"; ?>" alt="chef" />
-						<div class="overl">
-							<div class="title">nome e sobrenome</div>
-						</div>
-					</a>
-				</div>
-				<div class="col-md">
-					<a href="#" class="wrap" title="chef">
-						<img class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/chef.jpg"; ?>" alt="chef" />
-						<div class="overl">
-							<div class="title">nome e sobrenome</div>
-						</div>
-					</a>
-				</div>
-				<div class="col-md">
-					<a href="#" class="wrap" title="chef">
-						<img class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/chef.jpg"; ?>" alt="chef" />
-						<div class="overl">
-							<div class="title">nome e sobrenome</div>
-						</div>
-					</a>
-				</div>
-				<div class="col-md">
-					<a href="#" class="wrap" title="chef">
-						<img class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/chef.jpg"; ?>" alt="chef" />
-						<div class="overl">
-							<div class="title">nome e sobrenome</div>
-						</div>
-					</a>
-				</div>
-				<div class="col-md">
-					<a href="#" class="wrap" title="chef">
-						<img class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/chef.jpg"; ?>" alt="chef" />
-						<div class="overl">
-							<div class="title">nome e sobrenome</div>
-						</div>
-					</a>
-				</div>
-				<div class="col-md">
-					<a href="#" class="wrap" title="chef">
-						<img class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/chef.jpg"; ?>" alt="chef" />
-						<div class="overl">
-							<div class="title">nome e sobrenome</div>
-						</div>
-					</a>
-				</div>
+				<?php
+				$args = array(
+					'posts_per_page' => 5,
+				    'orderby' => 'rand');
+				$query = new WP_Query( $args );
+					if ( $query->have_posts() ) : ?>
+					<?php while ( $query->have_posts() ) : $query->the_post(); ?>
+					<div class="col-md">
+						<a href="<?php the_permalink(); ?>" class="wrap" title="chef">
+							<?php the_post_thumbnail('home-thumb', array(
+								'class' => "e-cinza img-fluid",
+							)); ?>
+							<div class="overl">
+								<div class="title"><?php the_title(); ?></div>
+							</div>
+						</a>
+					</div>
+					<?php endwhile; ?>
+				<?php endif; ?>
 			</div>
 			<img class="owl-prev-btn" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/btn-left.png"; ?>" alt="botao esquerda" />
 			<img class="owl-next-btn" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/btn-right.png"; ?>" alt="botao direita" />
@@ -118,13 +89,13 @@ ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
 		Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
 		ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo. </p>
 							<p>
-								<span class="separador"></span><a class="ler-mais" href="#" title="ler mais">ver galeria</a>
+								<span class="separador"></span><a class="ler-mais" href="<?php echo esc_url( home_url( 'fotos' ) ); ?>" title="ler mais">ver galeria</a>
 							</p>
 						</div>
 					</div>
 				</div>
-				<div class="col-md-6 embed-responsive embed-responsive-16by9">
-					<iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/sgdO-ht6BBw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+				<div class="col-md-6">
+					<img class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/sobre3.jpg"; ?>" alt="foto" />
 				</div>
 			</div>
 		</div>
@@ -139,19 +110,13 @@ ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
 			</div><br>
 			<div class="row owl-carousel wow fadeIn">
 				<div class="col-md">
-					<img class="img-fluid e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/menu1.jpg"; ?>" alt="menu1" />
+					<img class="img-fluid e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/Restaurante Shinzushi 01.jpg"; ?>" alt="menu1" />
 				</div>
 				<div class="col-md">
-					<img class="img-fluid e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/menu2.jpg"; ?>" alt="menu2" />
+					<img class="img-fluid e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/Restaurante Shinzushi 02.jpg"; ?>" alt="menu2" />
 				</div>
 				<div class="col-md">
-					<img class="img-fluid e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/menu3.jpg"; ?>" alt="menu3" />
-				</div>
-				<div class="col-md">
-					<img class="img-fluid e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/menu1.jpg"; ?>" alt="menu1" />
-				</div>
-				<div class="col-md">
-					<img class="img-fluid e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/menu2.jpg"; ?>" alt="menu2" />
+					<img class="img-fluid e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/Restaurante Shinzushi 03.jpg"; ?>" alt="menu3" />
 				</div>
 			</div>
 			<img class="owl-prev-btnb" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/btn-left.png"; ?>" alt="botao esquerda" />
@@ -161,8 +126,8 @@ ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
 	<section id="mapa">
 		<div class="container-fluid">
 			<div class="row wow fadeIn">
-				<div class="col-md-6">
-					<img class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/mapa.jpg"; ?>" alt="mapa" />
+				<div class="col-md-6 embed-responsive embed-responsive-16by9">
+					<iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.813953729382!2d-46.64578358464342!3d-23.57512448467607!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59972c70a2fd%3A0xbcc215c9a9ba93f3!2sR.+Afonso+de+Freitas%2C+169+-+Para%C3%ADso%2C+S%C3%A3o+Paulo+-+SP%2C+04006-050!5e0!3m2!1spt-BR!2sbr!4v1526470752513" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 				</div>
 				<div class="col-md-6">
 					<div class="row justify-content-center">
@@ -198,7 +163,7 @@ ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
 								</tbody>
 							</table>
 							<p>
-								<span class="separador"></span><a class="ler-mais" href="#" title="ler mais">contato</a>
+								<span class="separador"></span><a class="ler-mais" href="<?php echo esc_url( home_url( 'contato' ) ); ?>" title="ler mais">contato</a>
 							</p>
 						</div>
 					</div>

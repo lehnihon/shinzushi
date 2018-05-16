@@ -15,7 +15,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
-<link rel="shortcut icon" type="image/png" href="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/logo.png"; ?>" />
+<link rel="shortcut icon" type="image/png" href="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/Shinzushi favicon.png"; ?>" />
 
 <?php wp_head(); ?>
 <script>
@@ -60,10 +60,12 @@ new WOW().init();
 	<div id="myNav" class="overlay">
 		<!-- Overlay content -->
 		<div class="overlay-content">
-		<a href="#">About</a>
-		<a href="#">Services</a>
-		<a href="#">Clients</a>
-		<a href="#">Contact</a>
+			<a href="<?php echo esc_url( home_url( 'o-shinzushi' ) ); ?>" title="o shinzushi">O Shinzushi</a>
+			<a href="<?php echo esc_url( home_url( 'chef' ) ); ?>" title="chef">Chef</a>
+			<a href="<?php echo esc_url( home_url( 'menu' ) ); ?>" title="menu">Menu</a>
+			<a href="<?php echo esc_url( home_url( 'fotos' ) ); ?>" title="fotos">Fotos</a>
+			<a href="<?php echo esc_url( home_url( 'imprensa' ) ); ?>" title="imprensa">Imprensa</a>
+			<a href="<?php echo esc_url( home_url( 'contato' ) ); ?>" title="contato">Contato</a>
 		</div>
 	</div>
 

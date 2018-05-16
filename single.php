@@ -27,54 +27,25 @@ get_header(); ?>
 	<section id="chef" class="back-w">
 		<div class="container">
 			<div class="row owl-carousel wow fadeIn">
-				<div class="col-md">
-					<a href="#" class="wrap" title="chef">
-						<img class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/chef.jpg"; ?>" alt="chef" />
-						<div class="overl">
-							<div class="title">nome e sobrenome</div>
-						</div>
-					</a>
-				</div>
-				<div class="col-md">
-					<a href="#" class="wrap" title="chef">
-						<img class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/chef.jpg"; ?>" alt="chef" />
-						<div class="overl">
-							<div class="title">nome e sobrenome</div>
-						</div>
-					</a>
-				</div>
-				<div class="col-md">
-					<a href="#" class="wrap" title="chef">
-						<img class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/chef.jpg"; ?>" alt="chef" />
-						<div class="overl">
-							<div class="title">nome e sobrenome</div>
-						</div>
-					</a>
-				</div>
-				<div class="col-md">
-					<a href="#" class="wrap" title="chef">
-						<img class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/chef.jpg"; ?>" alt="chef" />
-						<div class="overl">
-							<div class="title">nome e sobrenome</div>
-						</div>
-					</a>
-				</div>
-				<div class="col-md">
-					<a href="#" class="wrap" title="chef">
-						<img class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/chef.jpg"; ?>" alt="chef" />
-						<div class="overl">
-							<div class="title">nome e sobrenome</div>
-						</div>
-					</a>
-				</div>
-				<div class="col-md">
-					<a href="#" class="wrap" title="chef">
-						<img class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/chef.jpg"; ?>" alt="chef" />
-						<div class="overl">
-							<div class="title">nome e sobrenome</div>
-						</div>
-					</a>
-				</div>
+				<?php
+				$args = array(
+					'posts_per_page' => 5,
+				    'orderby' => 'rand');
+				$query = new WP_Query( $args );
+					if ( $query->have_posts() ) : ?>
+					<?php while ( $query->have_posts() ) : $query->the_post(); ?>
+					<div class="col-md">
+						<a href="<?php the_permalink(); ?>" class="wrap" title="chef">
+							<?php the_post_thumbnail('home-thumb', array(
+								'class' => "e-cinza img-fluid",
+							)); ?>
+							<div class="overl">
+								<div class="title"><?php the_title(); ?></div>
+							</div>
+						</a>
+					</div>
+					<?php endwhile; ?>
+				<?php endif; ?>
 			</div>
 			<img class="owl-prev-btn no-title" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/btn-left.png"; ?>" alt="botao esquerda" />
 			<img class="owl-next-btn no-title" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/btn-right.png"; ?>" alt="botao direita" />
