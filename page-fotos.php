@@ -11,35 +11,35 @@ get_header(); ?>
 			</div><br>
 			<div class="row wow fadeIn">
 				<div class="col-md">
-					<img class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/pag-foto.jpg"; ?>" />
+					<img class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/Restaurante Shinzushi.jpg"; ?>" />
 				</div>
 				<div class="col-md">
-					<img class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/pag-foto.jpg"; ?>" />
+					<img class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/Restaurante Shinzushi B.jpg"; ?>" />
 				</div>
 				<div class="col-md">
-					<img class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/pag-foto.jpg"; ?>" />
-				</div>
-			</div>
-			<div class="row wow fadeIn">
-				<div class="col-md">
-					<img class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/pag-foto.jpg"; ?>" />
-				</div>
-				<div class="col-md">
-					<img class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/pag-foto.jpg"; ?>" />
-				</div>
-				<div class="col-md">
-					<img class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/pag-foto.jpg"; ?>" />
+					<img class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/Restaurante Shinzushi C.jpg"; ?>" />
 				</div>
 			</div>
 			<div class="row wow fadeIn">
 				<div class="col-md">
-					<img class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/pag-foto.jpg"; ?>" />
+					<img class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/Restaurante Shinzushi D.jpg"; ?>" />
 				</div>
 				<div class="col-md">
-					<img class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/pag-foto.jpg"; ?>" />
+					<img class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/Restaurante Shinzushi E.jpg"; ?>" />
 				</div>
 				<div class="col-md">
-					<img class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/pag-foto.jpg"; ?>" />
+					<img class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/Restaurante Shinzushi F.jpg"; ?>" />
+				</div>
+			</div>
+			<div class="row wow fadeIn">
+				<div class="col-md">
+					<img class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/Restaurante Shinzushi G.jpg"; ?>" />
+				</div>
+				<div class="col-md">
+					<img class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/Restaurante Shinzushi H.jpg"; ?>" />
+				</div>
+				<div class="col-md">
+					<img class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/Restaurante Shinzushi I.jpg"; ?>" />
 				</div>
 			</div>
 		</div>

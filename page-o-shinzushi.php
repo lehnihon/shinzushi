@@ -23,8 +23,8 @@ get_header(); ?>
 					Em 1989 com o desejo de ampliar seu restaurante mudou-se para o bairro do Paraíso,
 					mas em 1992 veio a falecer deixando a esposa e os filhos Ken, Jun e Nobu Mizumoto.</p>
 				</div>
-				<div class="col-md-6 embed-responsive embed-responsive-16by9">
-					<iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/sgdO-ht6BBw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+				<div class="col-md-6">
+					<img class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/sobre3.jpg"; ?>" alt="foto" />
 				</div>
 			</div>
 			<div class="row wow fadeIn">

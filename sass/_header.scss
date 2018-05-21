@@ -16,12 +16,12 @@
             .menu-close{
                 display:none;
                 padding-right:50px;
-                font-size:22px;
+                font-size:20px;
             }
 
             .menu-open{
                 padding-right:50px;
-                font-size:22px;
+                font-size:18px;
             }
             .menu-open:hover, .menu-close:hover{
                 cursor:pointer;
@@ -38,72 +38,75 @@
             z-index:5;
             padding-top:15px;
 
-            .redes_sociais_header{
+            ul{
                 height: 18px;
                 list-style:none;
                 display: inline-block;
-                width: 300px;
                 padding:0;
                 padding-left:50px;
+
+                li{
+                    display: inline-block;
+                    vertical-align: middle;
+                    a{
+                        position:relative;
+                        color:#FFF;
+                        display:block;
+                        padding-right:10px;
+
+                        i.redes-a{
+                            position:relative;
+                            -webkit-transition: all 0.25s ease-in-out;
+                            -moz-transition: all 0.25s ease-in-out;
+                            -o-transition: all 0.25s ease-in-out;
+                            -ms-transition: all 0.25s ease-in-out;
+                            transition: all 0.25s ease-in-out;
+                            bottom:0;
+                            left:0;
+                        }
+                        i.fa-tripadvisor{
+                            font-size:24px;
+                        }
+                        i.fa-play{
+                            font-size:16px;
+                        }
+                        i.fa-facebook-f{
+                            font-size:16px;
+                        }
+                        i.fa-instagram{
+                            font-size:20px;
+                        }
+                        i.redes-b{
+                            position:absolute;
+                            -webkit-transition: all 0.25s ease-in-out;
+                            -moz-transition: all 0.25s ease-in-out;
+                            -o-transition: all 0.25s ease-in-out;
+                            -ms-transition: all 0.25s ease-in-out;
+                            transition: all 0.25s ease-in-out;
+                            top:-20px;
+                            left:0;
+                            opacity:0;
+                        }
+                        span{
+                            font-size:18px;
+                            letter-spacing:2px;
+                            font-weight:normal;
+                            font-family: Mont Serrat Regular, Arial, sans-serif;
+                        }
+                    }
+                    a:hover{
+                        i.redes-a{
+                            opacity:0;
+                            bottom:-20px;
+                        }
+                        i.redes-b{
+                            top:0px;
+                            opacity:1;
+                        }
+                    }
+                }
             }
 
-            .redes_sociais_header li{
-                margin-right:5px;
-            }
-
-            .redes_sociais_header li:hover{
-                opacity: 0.6;
-                filter: alpha(opacity=60); /* For IE8 and earlier */
-            }
-
-            .redes_sociais_header a{
-                display: inline-block;
-                width:25px;
-                height:18px;
-            }
-
-            .redes_sociais_header .trip{
-                background-image: url("images/redes-top.png");
-                background-position: left center;
-                background-repeat:no-repeat;
-                width:30px;
-                height:18px;
-                display:inline-block;
-            }
-
-            .redes_sociais_header .youtube{
-                background-image: url("images/redes-top.png");
-                background-position: -46px,center;
-                background-repeat:no-repeat;
-                width:20px;
-                height:18px;
-                display:inline-block;
-            }
-
-            .redes_sociais_header .facebook{
-                background-image: url("images/redes-top.png");
-                background-position: -78px,center;
-                background-repeat:no-repeat;
-                width:20px;
-                height:18px;
-                display:inline-block;
-            }
-            .redes_sociais_header .instagram{
-                background-image: url("images/redes-top.png");
-                background-position: -107px,center;
-                background-repeat:no-repeat;
-                width:20px;
-                height:18px;
-                display:inline-block;
-            }
-            .redes_sociais_header .hash{
-                background-image: url("images/redes-top.png");
-                background-position: -144px,center;
-                background-repeat:no-repeat;
-                width:110px;
-                height:18px;
-                display:inline-block;
-            }
         }
     }
 
@@ -117,8 +120,7 @@
 
         a{
             color:#FFF;
-            font-size:18px;
-            font-weight:bold;
+            font-size:16px;
             display:inline-block;
             -webkit-transition: all 0.5s ease-in-out;
             -moz-transition: all 0.5s ease-in-out;
@@ -128,7 +130,7 @@
             padding:0 10px;
         }
         a:hover{
-            color:#ffc000;
+            color:#997e4c;
         }
     }
 
@@ -140,7 +142,7 @@
         margin-left:auto;
         margin-right:auto;
         top:45%;
-        font-size:22px;
+        font-size:20px;
         color:#FFF;
         font-weight:normal;
         font-family: Mont Serrat Regular, Arial, sans-serif;
@@ -234,12 +236,12 @@
             .menu-close{
                 display:none;
                 padding-right:50px;
-                font-size:22px;
+                font-size:20px;
             }
 
             .menu-open{
                 padding-right:50px;
-                font-size:22px;
+                font-size:20px;
             }
             .menu-open:hover, .menu-close:hover{
                 cursor:pointer;
@@ -256,72 +258,75 @@
             z-index:5;
             padding-top:15px;
 
-            .redes_sociais_header{
+            ul{
                 height: 18px;
                 list-style:none;
                 display: inline-block;
-                width: 300px;
                 padding:0;
                 padding-left:50px;
+
+                li{
+                    display: inline-block;
+                    vertical-align: middle;
+                    a{
+                        position:relative;
+                        color:#2f2f2f;
+                        display:block;
+                        padding-right:10px;
+
+                        i.redes-a{
+                            position:relative;
+                            -webkit-transition: all 0.25s ease-in-out;
+                            -moz-transition: all 0.25s ease-in-out;
+                            -o-transition: all 0.25s ease-in-out;
+                            -ms-transition: all 0.25s ease-in-out;
+                            transition: all 0.25s ease-in-out;
+                            bottom:0;
+                            left:0;
+                        }
+                        i.fa-tripadvisor{
+                            font-size:24px;
+                        }
+                        i.fa-play{
+                            font-size:16px;
+                        }
+                        i.fa-facebook-f{
+                            font-size:16px;
+                        }
+                        i.fa-instagram{
+                            font-size:20px;
+                        }
+                        i.redes-b{
+                            position:absolute;
+                            -webkit-transition: all 0.25s ease-in-out;
+                            -moz-transition: all 0.25s ease-in-out;
+                            -o-transition: all 0.25s ease-in-out;
+                            -ms-transition: all 0.25s ease-in-out;
+                            transition: all 0.25s ease-in-out;
+                            top:-20px;
+                            left:0;
+                            opacity:0;
+                        }
+                        span{
+                            font-size:16px;
+                            letter-spacing:2px;
+                            font-weight:normal;
+                            font-family: Mont Serrat Regular, Arial, sans-serif;
+                        }
+                    }
+                    a:hover{
+                        i.redes-a{
+                            opacity:0;
+                            bottom:-20px;
+                        }
+                        i.redes-b{
+                            top:0px;
+                            opacity:1;
+                        }
+                    }
+                }
             }
 
-            .redes_sociais_header li{
-                margin-right:5px;
-            }
-
-            .redes_sociais_header li:hover{
-                opacity: 0.6;
-                filter: alpha(opacity=60); /* For IE8 and earlier */
-            }
-
-            .redes_sociais_header a{
-                display: inline-block;
-                width:25px;
-                height:18px;
-            }
-
-            .redes_sociais_header .trip{
-                background-image: url("images/redes-top.jpg");
-                background-position: left center;
-                background-repeat:no-repeat;
-                width:30px;
-                height:18px;
-                display:inline-block;
-            }
-
-            .redes_sociais_header .youtube{
-                background-image: url("images/redes-top.jpg");
-                background-position: -46px,center;
-                background-repeat:no-repeat;
-                width:20px;
-                height:18px;
-                display:inline-block;
-            }
-
-            .redes_sociais_header .facebook{
-                background-image: url("images/redes-top.jpg");
-                background-position: -78px,center;
-                background-repeat:no-repeat;
-                width:20px;
-                height:18px;
-                display:inline-block;
-            }
-            .redes_sociais_header .instagram{
-                background-image: url("images/redes-top.jpg");
-                background-position: -107px,center;
-                background-repeat:no-repeat;
-                width:20px;
-                height:18px;
-                display:inline-block;
-            }
-            .redes_sociais_header .hash{
-                background-image: url("images/redes-top.jpg");
-                background-position: -144px,center;
-                background-repeat:no-repeat;
-                width:110px;
-                height:18px;
-                display:inline-block;
-            }
         }
     }
 
@@ -457,30 +462,29 @@
 
 .overlay-content {
     position: relative;
-    top: 25%;
+    top: 23%;
     width: 100%;
     text-align: center;
-    margin-top: 30px;
 }
 
 .overlay a {
     padding: 8px;
     text-decoration: none;
-    font-size: 36px;
-    color: #818181;
+    font-size: 34px;
+    color: #FFF;
     display: block;
     transition: 0.3s;
 }
 
 .overlay a:hover, .overlay a:focus {
-    color: #f1f1f1;
+    color:#997e4c;
 }
 
 .overlay .menu-close {
     position: absolute;
     top: 20px;
     right: 45px;
-    font-size: 60px;
+    font-size: 58px;
 }
 
 
@@ -562,7 +566,7 @@
 @media (max-width: 1400px) {
     #nav-bot{
         a{
-            font-size:14px !important;
+            font-size:13px !important;
         }
     }
 }
@@ -570,7 +574,7 @@
 @media (max-width: 1200px) {
     #nav-bot{
         a{
-            font-size:12px !important;
+            font-size:11px !important;
         }
     }
 }
@@ -598,7 +602,7 @@
 }
 
 @include media-breakpoint-down(sm) {
-    .overlay a {font-size: 20px}
+    .overlay a {font-size: 18px}
     .overlay .menu-close {
         font-size: 40px;
         top: 15px;
@@ -607,17 +611,17 @@
     .op{
         padding:0 !important;
         .menu-open{
-            font-size:18px;
+            font-size:16px;
         }
     }
     .logo{
-        width:120px !important;
+        width:100px !important;
     }
     #nav-bot{
         display:none;
     }
     #banner-text{
-        font-size:18px !important;
+        font-size:16px !important;
         top:55% !important;
     }
 }

@@ -6,7 +6,7 @@ get_header(); ?>
 		<div class="container">
 			<div class="row justify-content-center wow fadeIn">
 				<div class="col-md-12 text-center">
-					<span class="separador"></span><h1>chef</h1>
+					<span class="separador"></span><h1>Equipe</h1>
 				</div>
 			</div><br>
 			<div class="row wow fadeIn">

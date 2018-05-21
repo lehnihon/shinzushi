@@ -201,7 +201,6 @@ div#content{
 		padding:10px 0;
 		background-color:#FFF;
 
-
 		.table{
 			td,th{
 				padding:5px 12px;
@@ -243,24 +242,24 @@ div#content{
 		}
 	}
 
-	@include media-breakpoint-up(xl) {
-		section#video{
-			.desc{
-				margin-top:100px;
-			}
-		}
-
-		section#mapa{
-			.desc{
-				margin-top:85px;
-			}
-		}
-	}
-
 	@include media-breakpoint-down(md) {
-	    .owl-prev-btn, .owl-prev-btnb, .owl-next-btn, .owl-next-btnb{
-	    	display:none !important;
-	    }
+	    .owl-prev-btn{
+			top:100% !important;
+			left:10% !important;
+		}
+		.owl-prev-btnb{
+			top:100% !important;
+			left:10% !important;
+		}
+		.owl-next-btn{
+			top:100% !important;
+			right:10% !important;
+		}
+
+		.owl-next-btnb{
+			top:100% !important;
+			right:10% !important;
+		}
 	}
 }
 

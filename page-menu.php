@@ -84,19 +84,13 @@ get_header(); ?>
 		<div class="container">
 			<div class="row owl-carousel wow fadeIn">
 				<div class="col-md">
-					<img class="img-fluid e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/menu1.jpg"; ?>" alt="menu1" />
+					<img class="img-fluid e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/Restaurante Shinzushi 01.jpg"; ?>" alt="menu1" />
 				</div>
 				<div class="col-md">
-					<img class="img-fluid e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/menu2.jpg"; ?>" alt="menu2" />
+					<img class="img-fluid e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/Restaurante Shinzushi 02.jpg"; ?>" alt="menu2" />
 				</div>
 				<div class="col-md">
-					<img class="img-fluid e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/menu3.jpg"; ?>" alt="menu3" />
-				</div>
-				<div class="col-md">
-					<img class="img-fluid e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/menu1.jpg"; ?>" alt="menu1" />
-				</div>
-				<div class="col-md">
-					<img class="img-fluid e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/menu2.jpg"; ?>" alt="menu2" />
+					<img class="img-fluid e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/Restaurante Shinzushi 03.jpg"; ?>" alt="menu3" />
 				</div>
 			</div>
 			<img class="owl-prev-btnb no-title" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/btn-left.png"; ?>" alt="botao esquerda" />

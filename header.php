@@ -35,14 +35,14 @@ new WOW().init();
 			<div class="container-fluid">
 				<div class="row">
 					<div class="col redes">
-						<ul class="redes_sociais_header">
-							<li class="trip"><a target="_blank" href="#"></a></li>
-							<li class="youtube"><a target="_blank" href="#"></a></li>
-							<li class="facebook"><a target="_blank" href="#"></a></li>
-							<li class="instagram"><a target="_blank" href="#"></a></li>
-							<li class="hash"><a target="_blank" href="#"></a></li>
+						<ul>
+							<li><a target="_blank" href="#"><i class="redes-a fab fa-tripadvisor"></i><i class="redes-b fab fa-tripadvisor"></i></a></li>
+							<li><a target="_blank" href="#"><i class="redes-a fas fa-play"></i><i class="redes-b fas fa-play"></i></a></li>
+							<li><a target="_blank" href="#"><i class="redes-a fab fa-facebook-f"></i><i class="redes-b fab fa-facebook-f"></i></a></li>
+							<li><a target="_blank" href="#"><i class="redes-a fab fa-instagram"></i><i class="redes-b fab fa-instagram"></i></a></li>
+							<li><a target="_blank" href="#"><span>#ShinZushi</span></a></li>
 						</ul>
-					</span></div>
+					</div>
 					<div class="col text-center"><a href="<?php echo esc_url( home_url( '' ) ); ?>" title="logo"><img class="logo" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/logo.jpg"; ?>" alt="logo" /></a></span></div>
 					<div class="col text-right op">
 						<div class="menu-open">
@@ -60,8 +60,8 @@ new WOW().init();
 	<div id="myNav" class="overlay">
 		<!-- Overlay content -->
 		<div class="overlay-content">
-			<a href="<?php echo esc_url( home_url( 'o-shinzushi' ) ); ?>" title="o shinzushi">O Shinzushi</a>
-			<a href="<?php echo esc_url( home_url( 'chef' ) ); ?>" title="chef">Chef</a>
+			<a href="<?php echo esc_url( home_url( 'o-shinzushi' ) ); ?>" title="o shinzushi">O Shin-Zushi</a>
+			<a href="<?php echo esc_url( home_url( 'equipe' ) ); ?>" title="equipe">Equipe</a>
 			<a href="<?php echo esc_url( home_url( 'menu' ) ); ?>" title="menu">Menu</a>
 			<a href="<?php echo esc_url( home_url( 'fotos' ) ); ?>" title="fotos">Fotos</a>
 			<a href="<?php echo esc_url( home_url( 'imprensa' ) ); ?>" title="imprensa">Imprensa</a>
