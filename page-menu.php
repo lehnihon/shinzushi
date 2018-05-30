@@ -2,82 +2,57 @@
 get_header(); ?>
 
 <div id="content">
-	<section id="pag-base">
+	<section id="pag-base" class="menu">
 		<div class="container">
 			<div class="row justify-content-center wow fadeIn">
 				<div class="col-md-12 text-center">
 					<span class="separador"></span><h1>menu</h1>
 				</div>
 			</div><br>
-			<div class="row wow fadeIn">
+			<div class="row wow fadeIn d-flex align-items-center">
 				<div class="col-md-6 text-left pr-md-5">
 					<h2>COMBINADO DE SUSHI</h2>
-					<p>Tokojo Zushi<br>
-					Jo Zushi<br>
-					Maguro Zushi<br>
-					Battera
-					</p><br>
-					<h2>DONBORIMONO</h2>
-					<p>
-					Tirashi<br>
-					Bara Tirashi<br>
-					Tekkadon<br>
-					Maguro Natoo Don<br>
-					Oyakodon<br>
-					Katsudon<br>
-					Tendon<br>
-					Kare Rice</p>
+          <p><span class="separador"></span></p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ivamus auctor
+ligula ut adipiscing elit ivamus auctor ligula ut.</p>
 				</div>
 				<div class="col-md-6">
-					<img class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/menu.jpg"; ?>" />
+					<img class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/menu1.jpg"; ?>" />
 				</div>
 			</div>
-			<div class="row wow fadeIn">
+			<div class="row wow fadeIn d-flex align-items-center">
 				<div class="col-md-6">
-					<img class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/menu.jpg"; ?>" />
+					<img class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/menu2.jpg"; ?>" />
 				</div>
 				<div class="col-md-6 text-left pl-md-5">
 					<h2>COMBINADO DE SUSHI</h2>
-					<p>Tokojo Zushi<br>
-					Jo Zushi<br>
-					Maguro Zushi<br>
-					Battera
-					</p><br>
-					<h2>DONBORIMONO</h2>
-					<p>
-					Tirashi<br>
-					Bara Tirashi<br>
-					Tekkadon<br>
-					Maguro Natoo Don<br>
-					Oyakodon<br>
-					Katsudon<br>
-					Tendon<br>
-					Kare Rice</p>
+          <p><span class="separador"></span></p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ivamus auctor
+ligula ut adipiscing elit ivamus auctor ligula ut.</p>
 				</div>
 			</div>
-			<div class="row wow fadeIn">
+			<div class="row wow fadeIn d-flex align-items-center">
 				<div class="col-md-6 text-left pr-md-5">
 					<h2>COMBINADO DE SUSHI</h2>
-					<p>Tokojo Zushi<br>
-					Jo Zushi<br>
-					Maguro Zushi<br>
-					Battera
-					</p><br>
-					<h2>DONBORIMONO</h2>
-					<p>
-					Tirashi<br>
-					Bara Tirashi<br>
-					Tekkadon<br>
-					Maguro Natoo Don<br>
-					Oyakodon<br>
-					Katsudon<br>
-					Tendon<br>
-					Kare Rice</p>
+          <p><span class="separador"></span></p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ivamus auctor
+ligula ut adipiscing elit ivamus auctor ligula ut.</p>
 				</div>
 				<div class="col-md-6">
-					<img class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/menu.jpg"; ?>" />
+					<img class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/menu3.jpg"; ?>" />
 				</div>
 			</div>
+      <div class="row wow fadeIn d-flex align-items-center">
+        <div class="col-md-6">
+          <img class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/menu4.jpg"; ?>" />
+        </div>
+        <div class="col-md-6 text-left pl-md-5">
+          <h2>COMBINADO DE SUSHI</h2>
+          <p><span class="separador"></span></p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ivamus auctor
+ligula ut adipiscing elit ivamus auctor ligula ut.</p>
+        </div>
+      </div>
 		</div>
 	</section>
 	<section id="menu" class="back-w">
