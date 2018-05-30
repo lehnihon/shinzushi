@@ -55,21 +55,111 @@ ligula ut adipiscing elit ivamus auctor ligula ut.</p>
       </div>
 		</div>
 	</section>
-	<section id="menu" class="back-w">
+	<section id="menu" class="back-w text-left">
 		<div class="container">
-			<div class="row owl-carousel wow fadeIn">
-				<div class="col-md">
-					<img class="img-fluid e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/Restaurante Shinzushi 01.jpg"; ?>" alt="menu1" />
-				</div>
-				<div class="col-md">
-					<img class="img-fluid e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/Restaurante Shinzushi 02.jpg"; ?>" alt="menu2" />
-				</div>
-				<div class="col-md">
-					<img class="img-fluid e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/Restaurante Shinzushi 03.jpg"; ?>" alt="menu3" />
-				</div>
-			</div>
-			<img class="owl-prev-btnb no-title" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/btn-left.png"; ?>" alt="botao esquerda" />
-			<img class="owl-next-btnb no-title" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/btn-right.png"; ?>" alt="botao direita" />
+			<div class="row wow fadeIn">
+        <div class="col-md">
+          <h3>COMBINADO DE SUSHI</h3>
+          <p><span class="separador"></span></p>
+          <p>Tokujo Zushi<br>
+          Jo Zushi<br>
+          Maguro Zushi<br>
+          Battera</p>
+        </div>
+        <div class="col-md">
+          <h3>DONBURIMONO</h3>
+          <p><span class="separador"></span></p>
+          <p>Tirashi<br>
+          Bara Tirashi<br>
+          Yekadon<br>
+          Maguro Natto Don<br>
+          Tirashi<br>
+          Bara Tirashi<br>
+          Yekadon<br>
+          Maguro Natto Don</p>
+        </div>
+        <div class="col-md">
+          <h3>TEISHOKU</h3>
+          <p><span class="separador"></span></p>
+          <p>Especial Teishoku<br>
+          Sashimi Teishoku<br>
+          Tonkatsu Teishoku<br>
+          Yakizakana Masu Teshoku<br>
+          Buri Misozuke Teishoku<br>
+          Tori Kara Age Teishoku<br>
+          Iwashi Yaki Teishoku<br>
+          Yakiniku Oroshi Ae Teishoku<br>
+          Teppanyaki Carne<br>
+          Teppanyaki Frango<br>
+          Teppanyaki Anchova<br>
+          Teppanyaki Salmon</p>
+        </div>
+        <div class="col-md">
+          <h3>MENRUI</h3>
+          <p><span class="separador"></span></p>
+          <p>Shoyu Lamen + Oniguiri<br>
+          Miso Lamen + Oniguiri<br>
+          Karashi Miso Lamen + Oniguiri<br>
+          Chanpon + Oniguiri<br>
+          Nagasaki Chanpon + Oniguiri<br>
+          Chashu men + Oniguri<br>
+          Hiyashi Chuka<br>
+          Yakisoba<br>
+          Sauce Yaisoba</p>
+        </div>
+      </div><br>
+      <div class="row wow fadeIn">
+        <div class="col-md">
+          <h3>UDON / SOBA</h3>
+          <p><span class="separador"></span></p>
+          <p>Tokujo Zushi<br>
+          Jo Zushi<br>
+          Maguro Zushi<br>
+          Battera</p>
+        </div>
+        <div class="col-md">
+          <h3>ACOMPANHAMENTOS</h3>
+          <p><span class="separador"></span></p>
+          <p>Tirashi<br>
+          Bara Tirashi<br>
+          Yekadon<br>
+          Maguro Natto Don<br>
+          Tirashi<br>
+          Bara Tirashi<br>
+          Yekadon<br>
+          Maguro Natto Don
+          </p>
+        </div>
+        <div class="col-md">
+          <h3>SOBREMESA</h3>
+          <p><span class="separador"></span></p>
+          <p>Especial Teishoku
+          Sashimi Teishoku<br>
+          Tonkatsu Teishoku<br>
+          Yakizakana Masu Teshoku<br>
+          Buri Misozuke Teishoku<br>
+          Tori Kara Age Teishoku<br>
+          Iwashi Yaki Teishoku<br>
+          Yakiniku Oroshi Ae Teishoku<br>
+          Teppanyaki Carne<br>
+          Teppanyaki Frango<br>
+          Teppanyaki Anchova<br>
+          Teppanyaki Salmon</p>
+        </div>
+        <div class="col-md">
+          <h3>DOCE JAPONÊS</h3>
+          <p><span class="separador"></span></p>
+          <p>Shoyu Lamen + Oniguiri<br>
+          Miso Lamen + Oniguiri<br>
+          Karashi Miso Lamen + Oniguiri<br>
+          Chanpon + Oniguiri<br>
+          Nagasaki Chanpon + Oniguiri<br>
+          Chashu men + Oniguri<br>
+          Hiyashi Chuka<br>
+          Yakisoba<br>
+          Sauce Yaisoba</p>
+        </div>
+      </div>
 		</div>
 	</section>
 </div>

@@ -51,7 +51,7 @@ new WOW().init();
 							  <span></span>
 							  <span></span>
 							  <span></span>
-							</div> menu
+							</div>
 						</div>
 					</div>
 				</div>
