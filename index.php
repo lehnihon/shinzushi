@@ -131,13 +131,13 @@ costumes e da valorização das tradições e da cozinha japonesa.</p>
 					<div>
 
 						<h2 class="base">Como chegar</h2><br>
-						<p>Rua Afonso de Freitas, 169 - Paraíso<br> São Paulo - SP - Brasil</p>
+						<p>Rua Afonso de Freitas, 169 - Paraíso, São Paulo - SP - Brasil</p>
 						<h5 class="text-center">
 							<ul class="list-inline">
-								<li class="list-inline-item">Reservas: 11 3889-8700</li>
+								<li class="list-inline-item">Imprensa: 11 95577-4121</li><li class="list-inline-item">Reservas: 11 3889-8700</li>
 							</ul>
 						</h5>
-						<table class="table table-borderless base">
+						<table class="table table-borderless base text-left">
 							<thead>
 							<tr>
 								<th>Almoço</th>
@@ -146,16 +146,12 @@ costumes e da valorização das tradições e da cozinha japonesa.</p>
 							</thead>
 							<tbody>
 								<tr>
-									<td>Terça~Sexta 10h às 14h</td>
-									<td>Terça~Sexta 18h às 0h</td>
+									<td>Terça-feira a Sábado 11h30 às 14h</td>
+									<td>Terça-feira a Sábado 11h30 às 14h</td>
 								</tr>
 								<tr>
-									<td>Sábado 10h às 14h</td>
-									<td>Sábado 18h às 0h</td>
-								</tr>
-								<tr>
-									<td>Domingo 10h às 14h</td>
-									<td>Domingo 18h às 0h</td>
+									<td>Segunda-feira: Fechado</td>
+									<td>Domingo 18h às 22h</td>
 								</tr>
 							</tbody>
 						</table>

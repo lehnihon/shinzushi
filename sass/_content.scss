@@ -199,9 +199,17 @@ div#content{
 		}
 	}
 	
-	section#mapa{
+	#mapa{
 		padding:10px 0;
 		background-color:#FFF;
+
+    .list-inline-item{
+      padding:5px 10px;
+    }
+
+    .list-inline-item:first-child{
+      border-right:2px solid #997e4c;
+    }
 
 		.table{
 			td,th{
@@ -283,6 +291,25 @@ div#content{
     section#mapa{
       .embed-responsive{
         margin-bottom:25px;
+      }
+    }
+    section.menu{
+      .menu-desc{
+        order:1 !important;
+      }
+      .menu-img{
+        order:2 !important;
+        margin-bottom:60px !important;
+      }
+    }
+    section#menu{
+      .pad-resp{
+        padding-bottom:25px;
+      }
+    }
+    section#pag-base{
+      .col-md-6{
+        margin-bottom:5px;
       }
     }
 	}

@@ -39,12 +39,19 @@
 				</div>
 			</div>
 			<div class="row wow fadeIn">
-				<div class="col-md-12">
-				<span>&copy; <?php echo date('Y') ?> Shin-Zushi Restaurante - Todos os direitos reservados</span>
-				</div>
+				<div class="col-md-auto">
+				  <span>&copy; <?php echo date('Y') ?> Shin-Zushi Restaurante -</span>
+        </div>
+        <div class="col-md-auto">
+          <span>Todos os direitos reservados</span>
+        </div>
+          <a target="_blank" class="seimi float-right" href="http://seimidigital.com.br/">
+            <img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/seimi.jpg"; ?>" />
+          </a>
 			</div>
 		</div>
 	</footer><!-- #footer -->
+  <img class="e-claro seta-cima" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/seta-cima.png"; ?>" />
 </div><!-- #page -->
 
 <?php wp_footer(); ?>

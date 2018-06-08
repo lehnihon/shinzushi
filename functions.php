@@ -24,6 +24,7 @@ function site_setup() {
 	add_theme_support( 'post-thumbnails' );
 
 	add_image_size('home',600,600,true);
+  add_image_size('details',800,600,array('center','top'));
 }
 endif; // site_setup
 add_action( 'after_setup_theme', 'site_setup' );

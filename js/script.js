@@ -70,4 +70,17 @@
   $('.owl-prev-btnb').click(function() {
       owlb.trigger('prev.owl.carousel');
   });
+
+  $('.seta-cima').on('click',function(){
+    $("html, body").animate({ scrollTop: 0 }, "slow");
+  });
+
+  $(document).on('scroll', function () {
+
+      if ($(window).scrollTop() > 550) {
+        $('.seta-cima').addClass('seta-cima-show');
+      } else {
+        $('.seta-cima').removeClass('seta-cima-show');
+      }
+  });
 } )( jQuery );

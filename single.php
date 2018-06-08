@@ -16,7 +16,7 @@ get_header(); ?>
 					<?php the_content(); ?>
 				</div>
 				<div class="col-md-6">
-					<?php the_post_thumbnail('', array(
+					<?php the_post_thumbnail('details', array(
 						'class' => "img-fluid",
 					)); ?>
 				</div>

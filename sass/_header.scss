@@ -142,7 +142,7 @@
         margin-left:auto;
         margin-right:auto;
         top:45%;
-        font-size:20px;
+        font-size:24px;
         color:#FFF;
         font-weight:normal;
         font-family: Mont Serrat Regular, Arial, sans-serif;
@@ -587,7 +587,9 @@
 
 @include media-breakpoint-down(md) {
     .redes{
+      ul{
         display:none !important;
+      }
     }
 
     .tp-mask-wrap{
@@ -612,10 +614,14 @@
         padding:0 !important;
         .menu-open{
             font-size:16px;
+            padding-right:40px !important;
         }
     }
     .logo{
         width:100px !important;
+    }
+    .logo-header{
+      width:100px !important;
     }
     #nav-bot{
         display:none;
